@@ -8,7 +8,7 @@
 <h2 align="center">
   𝚔𝚊𝚛𝚖𝚊 𝚟𝟸 is a Passive Open Source Intelligence (OSINT) Automated Reconnaissance (framework)
   
-![Follow on Twitter](https://img.shields.io/twitter/follow/Dheerajmadhukar?style=social)  [![Version](https://img.shields.io/badge/Release-%E2%A1%B7%E2%A0%82%F0%9D%9A%94%F0%9D%9A%8A%F0%9D%9A%9B%F0%9D%9A%96%F0%9D%9A%8A%20%F0%9D%9A%9F%F0%9D%9F%B8%E2%A0%90%E2%A2%BE-white.svg)]()  [![Build](https://img.shields.io/badge/Supported_OS-Linux-white.svg)]() [![Build](https://img.shields.io/badge/Supported_WSL-Windows-white.svg)]()   [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/dheerajkmadhukar)
+![Follow on Twitter](https://img.shields.io/twitter/follow/Dheerajmadhukar?style=social)  [![Version](https://img.shields.io/badge/Release-%E2%A1%B7%E2%A0%82%F0%9D%9A%94%F0%9D%9A%8A%F0%9D%9A%9B%F0%9D%9A%96%F0%9D%9A%8A%20%F0%9D%9A%9F%F0%9D%9F%B8%E2%A0%90%E2%A2%BE-white.svg)]()  [![Build](https://img.shields.io/badge/Supported_OS-Linux-white.svg)]() [![Build](https://img.shields.io/badge/Supported_WSL-Windows-white.svg)]()   [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/)
 </h2>
 𝚔𝚊𝚛𝚖𝚊 𝚟𝟸 can be used by Infosec Researchers, Penetration Testers, Bug Hunters to find deep information, more assets, WAF/CDN bypassed IPs, Internal/External Infra, Publicly exposed leaks and many more about their target. Shodan Premium API key is required to use this automation. Output from the 𝚔𝚊𝚛𝚖𝚊 𝚟𝟸 is displayed to the screen and saved to files/directories.
 </br></br>
@@ -38,7 +38,7 @@ API : [Developer API](https://developer.shodan.io/api)
 ## Installation
 ### 1. Clone the repo
  ```bash
-# git clone https://github.com/Dheerajmadhukar/karma_v2.git
+# git clone https://github.com/trhacknon/karma_v2.git
 ```
 ### 2. Install shodan & mmh3 python module
 ```bash
@@ -48,13 +48,13 @@ API : [Developer API](https://developer.shodan.io/api)
 ```bash
 # apt install jq -y
 ```
-### 4. Install httprobe [@tomnomnom](https://github.com/tomnomnom/httprobe) to probe the requests
+### 4. Install httprobe [@tomnomnom](https://github.com/trhacknon/httprobe) to probe the requests
 ```bash
-# go install -v github.com/tomnomnom/httprobe@master
+# go install -v github.com/trhacknon/httprobe@master
 ```
-### 5. Install Interlace [@codingo](https://github.com/codingo/Interlace.git) to multithread [Follow the codingo interlace repo instructions]
+### 5. Install Interlace [@codingo](https://github.com/trhacknon/Interlace.git) to multithread [Follow the codingo interlace repo instructions]
 ```bash
-# git clone https://github.com/codingo/Interlace.git & install accordingly. 
+# git clone https://github.com/trhacknon/Interlace.git & install accordingly. 
 ```
 ### 6. Install nuclei [@projectdiscovery](https://github.com/projectdiscovery/nuclei)
 ```bash
@@ -66,7 +66,7 @@ API : [Developer API](https://developer.shodan.io/api)
 ```
 ### 8. Install anew
 ```bash
-# go install -v github.com/tomnomnom/anew@master
+# go install -v github.com/trhacknon/anew@master
 ```
 
 ## Ok, how do I use it?
@@ -235,4 +235,4 @@ If you like `⡷⠂𝚔𝚊𝚛𝚖𝚊 𝚟𝟸⠐⢾` and it help you in work,
 :stop_sign:   **Please avoid opening GitHub issues for support requests or questions!**
 buy me a beer to keep me powered :)
 
-<a href="https://www.buymeacoffee.com/medheeraj" target="_blank"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a beer&emoji=🍺&slug=medheeraj&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" alt="Buy Me A Beer"></a>
+<a href="https://www.buymeacoffee.com/" target="_blank"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a beer&emoji=🍺&slug=trhacknon&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" alt="Buy Me A Beer"></a>
