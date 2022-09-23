@@ -48,17 +48,17 @@ API : [Developer API](https://developer.shodan.io/api)
 ```bash
 # apt install jq -y
 ```
-### 4. Install httprobe [@tomnomnom](https://github.com/trhacknon/httprobe) to probe the requests
+### 4. Install httprobe [@trhacknon](https://github.com/trhacknon/httprobe) to probe the requests
 ```bash
 # go install -v github.com/trhacknon/httprobe@master
 ```
-### 5. Install Interlace [@codingo](https://github.com/trhacknon/Interlace.git) to multithread [Follow the codingo interlace repo instructions]
+### 5. Install Interlace [@trhacknon](https://github.com/trhacknon/Interlace.git) to multithread [Follow the codingo interlace repo instructions]
 ```bash
 # git clone https://github.com/trhacknon/Interlace.git & install accordingly. 
 ```
-### 6. Install nuclei [@projectdiscovery](https://github.com/projectdiscovery/nuclei)
+### 6. Install nuclei [@trhacknon](https://github.com/trhacknon/nuclei)
 ```bash
-# go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
+# go install -v github.com//nuclei/v2/cmd/nuclei@latest
 ```
 ### 7. Install lolcat
 ```bash
